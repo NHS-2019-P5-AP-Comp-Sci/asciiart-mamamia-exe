@@ -12,16 +12,55 @@
  * 
  * @author Mr. Rasmussen 
  *
- */
-
-// YOU CODE HERE :) 
+ */ 
 
 public class ASCIIArt {
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		
+		tailwing(); 
+		cockpit();
+		System.out.println(""); 
+		landinggearandbottom();
+		label();
+		
+		}
+	
+	public static void tailwing() {
+		
+		System.out.println("             _|_");
+		System.out.println("              |");
+	}
+	
+	public static void wing() {
+		
+		System.out.print("___________");
+	}
+	
+	public static void landinggearandbottom() {
+		
+		System.out.print("     ||");
+		System.out.print("    \\_____/"); 
+		System.out.print("    ||");
+		System.out.println("");
+		System.out.print("    /UU");
+		System.out.print("               UU\\");
+	}
+	
+	public static void cockpit() {
+		
+		System.out.print("            //|\\\\ ");
+		System.out.println("");
+		wing();
+		System.out.print("/_____\\");; 
+		wing();
+		
+	}
+	
+	public static void label() {
+		
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("Airplane"); 
 	}
 }
